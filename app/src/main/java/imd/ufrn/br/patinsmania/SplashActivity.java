@@ -15,8 +15,8 @@ public class SplashActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                SystemClock.sleep(5000);
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                SystemClock.sleep(4000);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

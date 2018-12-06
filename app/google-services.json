@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "677890161653",
+    "firebase_url": "https://patinsmania-41543.firebaseio.com",
+    "project_id": "patinsmania-41543",
+    "storage_bucket": "patinsmania-41543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677890161653:android:296999d6bab4c0d8",
+        "android_client_info": {
+          "package_name": "imd.ufrn.br.patinsmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677890161653-cfc0qot6hpj04m9t0eitn8mj9vd5kot3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASJhubLJCC3EfBnJJyHl66f_fjNTgVtTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

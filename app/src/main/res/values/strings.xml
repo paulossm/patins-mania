@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">PatinsMania</string>
-    <color name="skate_dark">#36312b</color>
-    <color name="orange_sun">#df7249</color>
-    <color name="speed_yellow">#fbf408</color>
+    <string name="app_name">Patins Mania</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="email_hint">polly@patinsmania.com</string>
+    <string name="password_hint">no mínimo 6 caracteres</string>
+
+    <string name="login_success">Logado com sucesso!</string>
+    <string name="login_failed">Usuário ou senha não reconhecidos.</string>
 </resources>
