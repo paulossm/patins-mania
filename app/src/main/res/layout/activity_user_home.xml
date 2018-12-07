@@ -7,33 +7,26 @@
     android:orientation="vertical"
     tools:context=".UserHome">
 
-    <Button
+    <ImageButton
+        android:id="@+id/imageButton1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/nav_operational"
-        android:onClick="navigateOperational"/>
+        android:layout_height="190dp"
 
-    <Button
+        android:contentDescription="Navegar para operacional"
+        android:onClick="navigateOperational"
+        app:srcCompat="@drawable/btn_operacional"
+        android:adjustViewBounds="true"
+        android:padding="6dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/nav_administrative"
-        android:onClick="navigateAdministrative"/>
-
-    <!--<android.support.design.widget.BottomNavigationView-->
-        <!--android:id="@+id/main_nav"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="56dp"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--app:menu="@menu/bottom_nav_menu"></android.support.design.widget.BottomNavigationView>-->
-
-    <!--<FrameLayout-->
-        <!--android:id="@+id/main_frame"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_above="@+id/main_nav"-->
-        <!--android:layout_alignParentTop="true">-->
-
-    <!--</FrameLayout>-->
+        android:layout_height="190dp"
+        android:contentDescription="Navegar para administrativo"
+        android:onClick="navigateAdministrative"
+        app:srcCompat="@drawable/btn_administrativo"
+        android:adjustViewBounds="true"
+        android:padding="6dp"
+        android:scaleType="fitCenter"/>
 </LinearLayout>
