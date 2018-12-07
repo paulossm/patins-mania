@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity" />
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -21,11 +23,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        </activity>
+        <activity android:name=".UserHome" />
+
+        <activity
+            android:name=".OperationalActivity"
+            android:label="Operacional"
+            android:parentActivityName=".UserHome" />
+
+        <activity
+            android:name=".AdministrativeActivity"
+            android:label="Administrativo"
+            android:parentActivityName=".UserHome"/>
+
+        <activity android:name=".EditPatinsActivity"></activity>
     </application>
 
 </manifest>

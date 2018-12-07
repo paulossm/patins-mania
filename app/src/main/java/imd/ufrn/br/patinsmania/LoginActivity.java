@@ -1,5 +1,6 @@
 package imd.ufrn.br.patinsmania;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,9 +37,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(LoginActivity.this, R.string.login_success, Toast.LENGTH_SHORT).show();
-
-                    // startar activity
-
+                    startActivity(new Intent(LoginActivity.this, UserHome.class));
                     finish();
                 } else {
                     Toast.makeText(LoginActivity.this, R.string.login_failed, Toast.LENGTH_SHORT).show();

@@ -8,4 +8,14 @@
 
     <string name="login_success">Logado com sucesso!</string>
     <string name="login_failed">Usuário ou senha não reconhecidos.</string>
+    <string name="nav_operational">Operacional</string>
+    <string name="nav_administrative">Administrativo</string>
+
+    <string name="txt_brand">Marca</string>
+    <string name="txt_model">Modelo</string>
+    <string name="txt_size">Tamanho</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_submit">Enviar</string>
+
+    <string name="list_empty">Não há itens nessa lista. Use o botão acima para adicionar.</string>
 </resources>

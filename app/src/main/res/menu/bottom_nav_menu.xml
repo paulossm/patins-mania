@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_operational"
+        android:icon="@drawable/icon_operational"
+        android:title="@string/nav_operational" />
+    <item
+        android:id="@+id/nav_administrative"
+        android:icon="@drawable/icon_administrative"
+        android:title="@string/nav_administrative" />
+</menu>
